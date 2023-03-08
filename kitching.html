@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<style>
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+    
+        color: rgb(128, 124, 0);
+    }
+
+    header h4 {
+        background-color: green;
+        color: white;
+        padding: 2px;
+        text-transform: uppercase;
+    }
+
+    section {
+        float: left;
+        width: 150px;
+        height: 600px;
+        margin: 10px;
+        margin-top: 0px;
+        border-right: 1px solid black;
+
+    }
+
+    section hr {
+        width: 20%;
+        border-color: red;
+        border-style: solid;
+        height: 2px;
+        background: red;
+        margin-left: 0;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        background-color: blanchedalmond;
+
+    }
+
+    section h3 {
+        margin-top: 0px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        list-style: none;
+
+    }
+
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: rgb(2, 2, 48);
+        font-weight: bold;
+    }
+
+    .img1 {
+        width: 700px;
+        height: 600px;
+        padding: 10px;
+        border-right: 1px solid black;
+    }
+
+    .img1 img {
+        width: 700px;
+        height: 600px;
+    }
+
+    .right {
+        display: inline-flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .right img {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .recipe {
+        background-color: rgb(242, 239, 234);
+    }
+
+    .recipe h3 {
+        text-align: center;
+        border: 0ch;
+        /* box-sizing: content-box; */
+        background-color: red;
+        color: white;
+        margin: 20px 550px;
+
+    }
+
+    .r1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(242, 239, 234);
+        margin: 0px;
+        padding: 15px;
+        margin-top: -15px;
+    }
+
+    .r1 nav {
+        margin-left: 150px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+    }
+
+    .search input {
+        width: 493px;
+        height: 23px;
+        border-radius: 2px;
+        margin: 0px 16px 0px 12px;
+        padding: 0px 12px;
+    }
+
+    .search a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .search a:hover {
+        color: rgb(108, 108, 173);
+    }
+
+    .card-item {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px 7px;
+    }
+
+    .card-item img {
+        width: 290px;
+        height: 200px;
+    }
+    .lines h4{
+        color: rgb(0, 213, 255);
+    }
+</style>
+
+<body>
+    <header>
+        <img src="10.png" width="70px" height="70px" alt="">
+        <h1>Kitch-ing</h1>
+        <h4>If you can organize your kitchen, you can organize your life.</h4>
+
+    </header>
+    <div class="container">
+        <section>
+
+
+            <div class="nav">
+                <nav>
+                    <h3>Latest</h3>
+                    <ul>
+                        <hr align="left">
+                        <li>
+
+                            <a href="home.html">
+                                <p>Pizza Cupcakes</p>
+                            </a>
+                        </li>
+                        <hr align="left">
+                        <li> <a href="home.html">
+                                <p>I am the Grocery Editor at Kitchn and This Fruity Snack Is the Best New Thing I Tried
+                                    All
+                                    Week
+                            </a></p>
+                        </li>
+                        <hr align="left">
+                        <li><a href="home.html">
+                                <p>How To Make Naturally Dyed Easter Eggs</p>
+                            </a></li>
+                        <hr align="left">
+                        <li><a href="home.html">
+                                <p>7 Accessories You Should Always Buy for Your Yard, According to Real Estate Pros</p>
+                            </a></li>
+                        <hr align="left">
+                        <li> <a href="home.html">
+                                <p>You Can Drink Cake-Inspired Cocktails and Compete “Great British Bake Off”-Style at
+                                    This London Bar</p>
+                            </a></li>
+                        <li><a href="home.html"><u>See all</u></a> ></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </section>
+        <div class="img1">
+            <img src="img1.jpg" alt="">
+        </div>
+        <div class="right">
+
+            <img src="img2.webp" alt="">
+            <div class="lines">
+                <p class="text-center my-1">30+ Easy Recipes to Make with a Can of Chickpeas</p>
+                <!-- <p class="text-center my-1">20% off</p>
+                <p class="text-center my-1">Grab Now</p> -->
+            </div>
+            <br>
+            <img src="img4.webp" alt="">
+            <div class="lines">
+                <p class="text-center my-1">10 Cleaning Tips from Midwestern Grandmas</p>
+                <!-- <p class="text-center my-1">20% off</p>
+                <p class="text-center my-1">Grab Now</p> -->
+            </div>
+        </div>
+        <div class="right">
+            <img src="img3.jpg" alt="">
+            <div class="lines">
+                <p class="text-center my-1">Sautéed Asparagus A 10-minute side dish to memorize</p>
+                <!-- <p class="text-center my-1">A 10-minute side dish to memorize</p> -->
+                <!-- <p class="text-center my-1">Grab Now</p> -->
+            </div>
+            <br>
+            <img src="img5.webp" alt="">
+            <div class="lines">
+                <p class="text-center my-1">4 Easy, Renter-Friendly Storage Ideas to Steal from This Narrow Kitchen in
+                    Harlem</p>
+                <!-- <p class="text-center my-1">20% off</p>
+                <p class="text-center my-1">Grab Now</p> -->
+            </div>
+
+        </div>
+    </div>
+    <article>
+        <div class="recipe">
+            <h3>Recipes</h3>
+        </div>
+        <div class="r1">
+            <nav>
+                <div class="search">
+                    <b>search over 6000 recipes</b> <input type="text" name="Search" id=""
+                        placeholder="What are you looking for?">
+                    <button class="btn">Search </button><a href="home.html"> <b>&emsp;browse the recipes ></b></a>
+                </div>
+            </nav>
+
+            <div class="card-item">
+                <img src="img6.jpg" alt="">
+
+                <div class="lines">
+                    <h4 class="text-center my-1">Recipes</h4>
+                    <p class="text-center my-1">Chalupas</p>
+
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="img7.jpg" alt="">
+
+                <div class="lines">
+                    <h4 class="text-center my-1">Recipes</h4>
+                    <p class="text-center my-1">Piizza Cupcakes</p>
+
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="img8.jpg" alt="">
+
+                <div class="lines">
+                    <h4 class="text-center my-1">Recipes</h4>
+                    <p class="text-center my-1">This date walnut pie is my Arab<br> American Homage to Pecan Pie</p>
+
+                </div>
+            </div>
+            <div class="card-item">
+                <img src="img9.webp" alt="">
+
+                <div class="lines">
+                    <h4 class="text-center my-1">Recipes</h4>
+                    <p class="text-center my-1">Khobz Arabi is the soft,<br>Chewy Flatbread of Your Dreams</p>
+
+                </div>
+            </div>
+
+        </div>
+    </article>
+    <footer>
+        <a href="index053.html">&xutri; <em>Back to top</em></a>
+        <br>
+        <center>
+        &copy; &nbsp;Pooja Nambiar
+        </center>
+      </footer>
+</body>
+
+</html>

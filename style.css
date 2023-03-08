@@ -1,0 +1,164 @@
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+    
+        color: rgb(128, 124, 0);
+    }
+
+    header h4 {
+        background-color: green;
+        color: white;
+        padding: 2px;
+        text-transform: uppercase;
+    }
+
+    section {
+        float: left;
+        width: 150px;
+        height: 600px;
+        margin: 10px;
+        margin-top: 0px;
+        border-right: 1px solid black;
+
+    }
+
+    section hr {
+        width: 20%;
+        border-color: red;
+        border-style: solid;
+        height: 2px;
+        background: red;
+        margin-left: 0;
+
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        background-color: blanchedalmond;
+
+    }
+
+    section h3 {
+        margin-top: 0px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        list-style: none;
+
+    }
+
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: rgb(2, 2, 48);
+        font-weight: bold;
+    }
+
+    .img1 {
+        width: 700px;
+        height: 600px;
+        padding: 10px;
+        border-right: 1px solid black;
+    }
+
+    .img1 img {
+        width: 700px;
+        height: 600px;
+    }
+
+    .right {
+        display: inline-flex;
+        flex-direction: column;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .right img {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .recipe {
+        background-color: rgb(242, 239, 234);
+    }
+
+    .recipe h3 {
+        text-align: center;
+        border: 0ch;
+        /* box-sizing: content-box; */
+        background-color: red;
+        color: white;
+        margin: 20px 550px;
+
+    }
+
+    .r1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(242, 239, 234);
+        margin: 0px;
+        padding: 15px;
+        margin-top: -15px;
+    }
+
+    .r1 nav {
+        margin-left: 150px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+    }
+
+    .search input {
+        width: 493px;
+        height: 23px;
+        border-radius: 2px;
+        margin: 0px 16px 0px 12px;
+        padding: 0px 12px;
+    }
+
+    .search a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .search a:hover {
+        color: rgb(108, 108, 173);
+    }
+
+    .card-item {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px 7px;
+    }
+
+    .card-item img {
+        width: 290px;
+        height: 200px;
+    }
+    .lines h4{
+        color: rgb(0, 213, 255);
+    }
